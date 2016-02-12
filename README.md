@@ -2,7 +2,7 @@
 
 For testing GraphQL [GraphiQL](https://github.com/graphql/graphiql) is great. It also shows documentation (names and description of API).
 
-index.html file is already built graphiQL so node.js is not needed. It also has URL set to default R5 GraphiQL URL:`http://localhost:8080/otp/routers/default/index/graphql`.
+Provided index.html file is already built graphiQL so node.js is not needed. It also has URL set to default R5 GraphiQL URL:`http://localhost:8080/otp/routers/default/index/graphql`.
 
 GraphQL server needs to be running before starting GraphiQL since it uses GraphQL server to get GraphQL schema to show documentations and for validation.
 
