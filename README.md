@@ -8,6 +8,11 @@ GraphQL server needs to be running before starting GraphiQL since it uses GraphQ
 
 Graphl API is also used on [new Debug API](http://localhost:8080/new.html).
 
+## GraphQl Schema:
+![Example graph](https://rawgit.com/buma/R5Docs/master/resources/schemaDiagram.svg)
+
+[Schema.json](https://github.com/buma/R5Docs/blob/master/resources/graphqlSchema.json)
+
 Example request (This uses GraphQl variables) Currently accessModes and other values that accept list can't be used as GraphQL variables since they can't be deserialized):
 ```javascript
 query requestPlan($fromLat:Float!, $fromLon:Float!,
