@@ -14,7 +14,7 @@ Graphl API is also used on [new Debug API](http://localhost:8080/new.html).
 [Schema.json](https://github.com/buma/R5Docs/blob/master/resources/graphqlSchema.json)
 
 Example request (This uses GraphQl variables) Currently accessModes and other values that accept list can't be used as GraphQL variables since they can't be deserialized):
-```javascript
+```graphql
 query requestPlan($fromLat:Float!, $fromLon:Float!,
   $toLat:Float!, $toLon:Float!,
 $fromTime: ZonedDateTime!, $toTime:ZonedDateTime!) {
