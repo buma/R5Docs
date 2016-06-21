@@ -157,3 +157,5 @@ Return format is mostly the same as previous profile response. The biggest diffe
 Some information about return format can be found [here](https://github.com/conveyal/r5/issues/48#issuecomment-165480575).
 
 And how to interpret it can be seen in [graphql_plan.js](https://github.com/conveyal/r5/blob/graphQL/src/main/resources/debug-plan/scripts/graphql_plan.js#L408).
+
+JS example in test_lokka.js to run it npm install lokka; npm install lokka-transport-http
